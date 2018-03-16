@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopApp.Android", "Front\Front.Android\ShopApp.Android.csproj", "{27EADD9B-9443-4E9F-98CB-BDB779A43114}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopApp.Android", "ShopApp\ShopApp.Android\ShopApp.Android.csproj", "{27EADD9B-9443-4E9F-98CB-BDB779A43114}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopApp.iOS", "Front\Front.iOS\ShopApp.iOS.csproj", "{9789BEB6-EA16-4C95-9CD3-61CDBC2B9E45}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopApp.iOS", "ShopApp\ShopApp.iOS\ShopApp.iOS.csproj", "{9789BEB6-EA16-4C95-9CD3-61CDBC2B9E45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopApp.UWP", "Front\Front.UWP\ShopApp.UWP.csproj", "{EB062EB4-5F84-4551-A319-5BD40C5DDBAB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopApp.UWP", "ShopApp\ShopApp.UWP\ShopApp.UWP.csproj", "{EB062EB4-5F84-4551-A319-5BD40C5DDBAB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopApp", "Front\Front\ShopApp.csproj", "{5725D030-9569-46E5-9D48-180DB314E6CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopApp", "ShopApp\ShopApp\ShopApp.csproj", "{5725D030-9569-46E5-9D48-180DB314E6CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

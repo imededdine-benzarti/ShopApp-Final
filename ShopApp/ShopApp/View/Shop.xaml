@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ShopApp.View.Shop">
+
+    <StackLayout Padding="20">
+        <SearchBar x:Name="searchItem" Placeholder="Search" TextChanged="HandleTextChanged" />
+        <StackLayout Padding="20">
+        <ListView x:Name="ProductMenu" HasUnevenRows="True">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="{Binding Image}" WidthRequest="50" HeightRequest="50"/>
+                        <StackLayout Orientation="Vertical">
+                        <Label Text="{Binding ProductName}" HorizontalOptions="Start"  TextColor="Black" />
+                        <Label Text="{Binding Status}"  HorizontalOptions="Start" TextColor="Gray" />
+                        <Label Text="{Binding Price}"  HorizontalOptions="Start" TextColor="Black" />
+                        </StackLayout>
+                    </StackLayout>
+
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>
